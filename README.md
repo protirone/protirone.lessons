@@ -1,5 +1,5 @@
 <!--
-% This file is part of the Open Source project 'proTironeComputatri'
+% This file is part of the Open Source project 'proTirone'
 % (c) 2025 Karsten Reincke (https://github.com/protirone/protico.ltx)
 % It is distributed under the terms of the Creative Commons license
 % CC-BY-4.0 (= https://creativecommons.org/licenses/by/4.0/)
@@ -26,13 +26,13 @@
 
 ### (1) Ziel
 
-Das [proTironeComputatri-Manifest](https://github.com/protirone) besagt im Kern, dass wir
+Das [proTirone-Manifest](https://github.com/protirone) besagt im Kern, dass wir
 
 * Lehrerinnen und Schülerinnen fertig aufbereitete Unterrichts- und Lerneinheiten für die Ausbildung zur Fachinformatikerin anbieten möchten. 
 * den Stoff, den die Abschlussprüfungen I und II erwarten, umfänglich und hochwertig aufbereiten wollen.
 * jeder Nutzerin unsere Ergebnisse im Sinne freier Software und Dokumente gebührenfrei anbieten möchten.
 
-Deshalb bieten Ihnen die *proTironeComputatri*-Repositories **_freie_ Lehr- und Lernmaterialien für die Ausbildung zur Fachinformatikerin**[^1] in Form von Dokumenten und Skripten,
+Deshalb bieten Ihnen die *proTirone*-Repositories **_freie_ Lehr- und Lernmaterialien für die Ausbildung zur Fachinformatikerin**[^1] in Form von Dokumenten und Skripten,
 
 * die die Vorgaben des Rahmenlehrplans und der Prüfungskataloge erfüllen,
 * die sich an die Aufteilung der Lernfelder halten,
