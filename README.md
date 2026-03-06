@@ -1,7 +1,6 @@
-
 <!--
 % This file is part of the Open Source project 'proTironeComputatri'
-% (c) 2025 Karsten Reincke (https://github.com/pro-tirone-computatri/protico.ltx)
+% (c) 2025 Karsten Reincke (https://github.com/protirone/protico.ltx)
 % It is distributed under the terms of the Creative Commons license
 % CC-BY-4.0 (= https://creativecommons.org/licenses/by/4.0/)
 -->
@@ -10,10 +9,10 @@
 <!-- LTeX:Language=de-DE -->
 
 <p align="center">
-  <a href="https://github.com/pro-tirone-computatri/protico.lessons/"><img src="logo.png" height="80"></a><br />
-  <a href="https://github.com/pro-tirone-computatri/protico.lessons/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/pro-tirone-computatri/protico.lessons?style=flat"></a>
-  <a href="https://github.com/pro-tirone-computatri/protico.lessons/issues" title="Open Issues"><img src="https://img.shields.io/github/issues/pro-tirone-computatri/protico.lessons?style=flat"></a>  
-  <a href="https://github.com/pro-tirone-computatri/protico.ltx/blob/master/LICENSING.md" title="License"><img src="https://img.shields.io/badge/License-CC_BY_4.0-blue.svg?style=flat"></a>
+  <a href="https://github.com/protirone/protico.lessons/"><img src="logo.png" height="80"></a><br />
+  <a href="https://github.com/protirone/protico.lessons/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/protirone/protico.lessons?style=flat"></a>
+  <a href="https://github.com/protirone/protico.lessons/issues" title="Open Issues"><img src="https://img.shields.io/github/issues/protirone/protico.lessons?style=flat"></a>  
+  <a href="https://github.com/protirone/protico.ltx/blob/master/LICENSING.md" title="License"><img src="https://img.shields.io/badge/License-CC_BY_4.0-blue.svg?style=flat"></a>
 </p>
 
 
@@ -27,7 +26,7 @@
 
 ### (1) Ziel
 
-Das [proTironeComputatri-Manifest](https://github.com/pro-tirone-computatri) besagt im Kern, dass wir
+Das [proTironeComputatri-Manifest](https://github.com/protirone) besagt im Kern, dass wir
 
 * Lehrerinnen und Schülerinnen fertig aufbereitete Unterrichts- und Lerneinheiten für die Ausbildung zur Fachinformatikerin anbieten möchten. 
 * den Stoff, den die Abschlussprüfungen I und II erwarten, umfänglich und hochwertig aufbereiten wollen.
@@ -45,7 +44,7 @@ Deshalb bieten Ihnen die *proTironeComputatri*-Repositories **_freie_ Lehr- und 
 
 Fertige Unterrichtseinheiten in Form von PDF-Dateien, sortiert nach Lernfeld und intendierter Abfolge bzw. bei Lernfeld-übergreifenden Lektionen gesammelt in einem Cross-Over-Ordner.
 
-### (3) [Lizenz](https://github.com/pro-tirone-computatri/protico.ltx/blob/main/LICENSING.md) 
+### (3) [Lizenz](https://github.com/protirone/protico.ltx/blob/main/LICENSING.md) 
 
 Sofern im Einzelfall nicht anders vermerkt, stehen alle Dokumente unter der [CC-BY-4.0-Lizenz](https://creativecommons.org/licenses/by/4.0/deed.de). Davon ausgenommen ist das [proTirone-Logo](./logo.png): Es darf nur verwendet werden, um das Projekt [proTirone](https://github.com/proi-tirone-computatri/) und dessen Repositories visuell zu markieren bzw. anzuteasern. Die Erfüllung der CC-BY-4.0-Lizenz ist im Dokument [LICENSING.md](./LICENSING.md) näher geregelt.
 
