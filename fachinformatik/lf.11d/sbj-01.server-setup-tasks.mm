@@ -1,0 +1,383 @@
+<map version="freeplane 1.12.1">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
+<bookmarks>
+    <bookmark nodeId="ID_696401721" name="Root" opensAsRoot="true"/>
+</bookmarks>
+<node TEXT="Server&#xa;Setup" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1790004998146" STYLE="oval">
+<font SIZE="18"/>
+<hook NAME="MapStyle">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" auto_compact_layout="true" fit_to_viewport="false" show_icons="BESIDE_NODES" associatedTemplateLocation="template:/standard-1.6.mm" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1758275720000" show_icon_for_attributes="true" showTagCategories="false" show_tags="UNDER_NODES" show_note_icons="true"/>
+    <tags category_separator="::"/>
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ID="ID_271890427" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_271890427" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.tags">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="9"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#ffffff" TEXT_ALIGN="LEFT"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#afd3f7" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#afd3f7"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#cc3300" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.important" ID="ID_67550811">
+<icon BUILTIN="yes"/>
+<arrowlink COLOR="#003399" TRANSPARENCY="255" DESTINATION="ID_67550811"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.flower" COLOR="#ffffff" BACKGROUND_COLOR="#255aba" STYLE="oval" TEXT_ALIGN="CENTER" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="22 pt" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f9d71c" BORDER_DASH_LIKE_EDGE="false" BORDER_DASH="CLOSE_DOTS" MAX_WIDTH="6 cm" MIN_WIDTH="3 cm"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
+<font SIZE="18"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
+<font SIZE="16"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#00b439">
+<font SIZE="14"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#990000">
+<font SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#111111">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,5"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,6"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,7"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,8"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,9"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,10"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,11"/>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="System&#xa;Features?" POSITION="bottom_or_right" ID="ID_1758796302" CREATED="1758697482369" MODIFIED="1790006866849" BACKGROUND_COLOR="#cc99ff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<edge COLOR="#0000ff"/>
+<node TEXT="Timezone&#xa;&amp; -server?" ID="ID_663736092" CREATED="1758697482369" MODIFIED="1790007535308" BACKGROUND_COLOR="#ccccff" STYLE="bubble" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_318364265" CREATED="1761117777166" MODIFIED="1790005737648" COLOR="#6600cc">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_1133319930" CREATED="1761117777166" MODIFIED="1790005721213" COLOR="#6600cc">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Keyboard&#xa;Layout?" ID="ID_206822786" CREATED="1758697482369" MODIFIED="1790007535310" BACKGROUND_COLOR="#ccccff" STYLE="bubble" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_257309497" CREATED="1761117777166" MODIFIED="1790005737648" COLOR="#6600cc">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_796488950" CREATED="1761117777166" MODIFIED="1790005721213" COLOR="#6600cc">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="System&#xa;Language?" ID="ID_441143981" CREATED="1758697482369" MODIFIED="1790007535312" BACKGROUND_COLOR="#ccccff" STYLE="bubble" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_1933971644" CREATED="1761117777166" MODIFIED="1790005737648" COLOR="#6600cc">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_967044894" CREATED="1761117777166" MODIFIED="1790005721213" COLOR="#6600cc">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+</node>
+<node TEXT="Operating&#xa;System?" POSITION="bottom_or_right" ID="ID_91337942" CREATED="1761075612986" MODIFIED="1790006647893" COLOR="#006666" BACKGROUND_COLOR="#ccffff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<edge COLOR="#00ffff"/>
+<node TEXT="!" ID="ID_881486042" CREATED="1761074181334" MODIFIED="1790004956254" BACKGROUND_COLOR="#ccffff" STYLE="bubble">
+<node TEXT="Distribution?" ID="ID_359399015" CREATED="1761075612986" MODIFIED="1790007688956" COLOR="#006666" BACKGROUND_COLOR="#dcffff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_1028719076" CREATED="1761074181334" MODIFIED="1790007688958" BACKGROUND_COLOR="#dcffff" STYLE="bubble">
+<node TEXT="ISO&#xa;File?" ID="ID_1903061819" CREATED="1761075612986" MODIFIED="1790007688959" COLOR="#006666" BACKGROUND_COLOR="#dcffff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_3939799" CREATED="1761117777166" MODIFIED="1790004781910" COLOR="#009999">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_310738729" CREATED="1761117788142" MODIFIED="1790004820770" COLOR="#009999">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Tooling?" ID="ID_1790751113" CREATED="1761075612986" MODIFIED="1790007688962" COLOR="#006666" BACKGROUND_COLOR="#dcffff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_258608643" CREATED="1761117777166" MODIFIED="1790004781910" COLOR="#009999">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_62121437" CREATED="1761117788142" MODIFIED="1790004820770" COLOR="#009999">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Config&#xa;System?" ID="ID_1400708696" CREATED="1761075612986" MODIFIED="1790007688963" COLOR="#006666" BACKGROUND_COLOR="#dcffff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_1685697428" CREATED="1761117777166" MODIFIED="1790004781910" COLOR="#009999">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_191128247" CREATED="1761117788142" MODIFIED="1790004820770" COLOR="#009999">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Partitions" POSITION="bottom_or_right" ID="ID_1267397963" CREATED="1758697482369" MODIFIED="1790006984041" BACKGROUND_COLOR="#ccffcc" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<edge COLOR="#0000ff"/>
+<node TEXT="!" ID="ID_1492379750" CREATED="1761074181334" MODIFIED="1790007250532" COLOR="#330033" BACKGROUND_COLOR="#ccffcc" STYLE="bubble">
+<node TEXT="File&#xa;System" ID="ID_255050726" CREATED="1761075612986" MODIFIED="1790007688941" COLOR="#330033" BACKGROUND_COLOR="#dcffff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_330827207" CREATED="1761117788142" MODIFIED="1790006602947" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Size?" ID="ID_1627146439" CREATED="1761075612986" MODIFIED="1790007688951" COLOR="#330033" BACKGROUND_COLOR="#dcffff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_878309773" CREATED="1761117777166" MODIFIED="1790006602965" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Mount&#xa;Point?" ID="ID_929456056" CREATED="1761075612986" MODIFIED="1790007688952" COLOR="#330033" BACKGROUND_COLOR="#dcffff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_1630165337" CREATED="1761117777166" MODIFIED="1790006602970" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Installation&#xa;Media?" POSITION="bottom_or_right" ID="ID_1026137742" CREATED="1758697482369" MODIFIED="1790006704574" BACKGROUND_COLOR="#9999ff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<edge COLOR="#0000ff"/>
+<node TEXT="!" ID="ID_621496802" CREATED="1761117777166" MODIFIED="1790005657063" COLOR="#3333ff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_1888191101" CREATED="1761117777166" MODIFIED="1790005657071" COLOR="#3333ff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="File&#xa;Access&#xa;System" POSITION="bottom_or_right" ID="ID_138897689" CREATED="1758697482369" MODIFIED="1790007177503" BACKGROUND_COLOR="#99ccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<edge COLOR="#0000ff"/>
+<node TEXT="!" ID="ID_355956492" CREATED="1761117777166" MODIFIED="1790005623613" COLOR="#00cccc">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_624484631" CREATED="1761117777166" MODIFIED="1790005623607" COLOR="#00cccc">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Services?" POSITION="top_or_left" ID="ID_797326145" CREATED="1761075612986" MODIFIED="1790007269010" COLOR="#330033" BACKGROUND_COLOR="#ff9999" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<edge COLOR="#ff00ff"/>
+<node TEXT="SSH-Server" ID="ID_166092541" CREATED="1761074181334" MODIFIED="1790007292783" COLOR="#330033" BACKGROUND_COLOR="#ff9999" STYLE="bubble">
+<node TEXT="start &amp;&#xa;stop" ID="ID_466120834" CREATED="1761075612986" MODIFIED="1790007481206" COLOR="#330033" BACKGROUND_COLOR="#ffccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_958365548" CREATED="1761117777166" MODIFIED="1790006602960" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_402507725" CREATED="1761117788142" MODIFIED="1790006602947" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Data&#xa;Files?" ID="ID_63366076" CREATED="1761075612986" MODIFIED="1790007481211" COLOR="#330033" BACKGROUND_COLOR="#ffccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_1895426246" CREATED="1761117777166" MODIFIED="1790006602965" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_66920846" CREATED="1761117788142" MODIFIED="1790006602966" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Config&#xa;Files?" ID="ID_1740902026" CREATED="1761075612986" MODIFIED="1790007481215" COLOR="#330033" BACKGROUND_COLOR="#ffccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_1549871948" CREATED="1761117777166" MODIFIED="1790006602970" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_113213626" CREATED="1761117788142" MODIFIED="1790006602972" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Port?" ID="ID_877150817" CREATED="1761075612986" MODIFIED="1790007481218" COLOR="#330033" BACKGROUND_COLOR="#ffccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_216626884" CREATED="1761117777166" MODIFIED="1790006602970" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+</node>
+<node TEXT="HTTP-Server" ID="ID_1517326444" CREATED="1761074181334" MODIFIED="1790007306428" COLOR="#330033" BACKGROUND_COLOR="#ff9999" STYLE="bubble">
+<node TEXT="start &amp;&#xa;stop" ID="ID_503942004" CREATED="1761075612986" MODIFIED="1790007481219" COLOR="#330033" BACKGROUND_COLOR="#ffccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_1363376574" CREATED="1761117777166" MODIFIED="1790006602960" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_561818031" CREATED="1761117788142" MODIFIED="1790006602947" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Data&#xa;Files?" ID="ID_1416737786" CREATED="1761075612986" MODIFIED="1790007481221" COLOR="#330033" BACKGROUND_COLOR="#ffccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_1734198661" CREATED="1761117777166" MODIFIED="1790006602965" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_696228238" CREATED="1761117788142" MODIFIED="1790006602966" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Config&#xa;Files?" ID="ID_1081745249" CREATED="1761075612986" MODIFIED="1790007481223" COLOR="#330033" BACKGROUND_COLOR="#ffccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_1779751899" CREATED="1761117777166" MODIFIED="1790006602970" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_1762337802" CREATED="1761117788142" MODIFIED="1790006602972" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Port?" ID="ID_1541696553" CREATED="1761075612986" MODIFIED="1790007481225" COLOR="#330033" BACKGROUND_COLOR="#ffccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_733944634" CREATED="1761117777166" MODIFIED="1790006602970" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+</node>
+<node TEXT="HTTPS-Server" ID="ID_492185526" CREATED="1761074181334" MODIFIED="1790007333103" COLOR="#330033" BACKGROUND_COLOR="#ff9999" STYLE="bubble">
+<node TEXT="start &amp;&#xa;stop" ID="ID_1228512079" CREATED="1761075612986" MODIFIED="1790007481225" COLOR="#330033" BACKGROUND_COLOR="#ffccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_835389039" CREATED="1761117777166" MODIFIED="1790006602960" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_968558777" CREATED="1761117788142" MODIFIED="1790006602947" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Data&#xa;Files?" ID="ID_551256003" CREATED="1761075612986" MODIFIED="1790007481227" COLOR="#330033" BACKGROUND_COLOR="#ffccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_1801215209" CREATED="1761117777166" MODIFIED="1790006602965" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_963494911" CREATED="1761117788142" MODIFIED="1790006602966" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Config&#xa;Files?" ID="ID_665266822" CREATED="1761075612986" MODIFIED="1790007481228" COLOR="#330033" BACKGROUND_COLOR="#ffccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_643828722" CREATED="1761117777166" MODIFIED="1790006602970" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_1679605171" CREATED="1761117788142" MODIFIED="1790006602972" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Port?" ID="ID_957228453" CREATED="1761075612986" MODIFIED="1790007481230" COLOR="#330033" BACKGROUND_COLOR="#ffccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_1327085427" CREATED="1761117777166" MODIFIED="1790006602970" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+</node>
+<node TEXT="MQTT-Server" ID="ID_240376626" CREATED="1761074181334" MODIFIED="1790007356755" COLOR="#330033" BACKGROUND_COLOR="#ff9999" STYLE="bubble">
+<node TEXT="start &amp;&#xa;stop" ID="ID_194215158" CREATED="1761075612986" MODIFIED="1790007570791" COLOR="#330033" BACKGROUND_COLOR="#ffccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_1337173291" CREATED="1761117777166" MODIFIED="1790006602960" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_965539727" CREATED="1761117788142" MODIFIED="1790006602947" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Data&#xa;Files?" ID="ID_331741509" CREATED="1761075612986" MODIFIED="1790007553593" COLOR="#330033" BACKGROUND_COLOR="#ffccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_600000992" CREATED="1761117777166" MODIFIED="1790006602965" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_109969982" CREATED="1761117788142" MODIFIED="1790006602966" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Config&#xa;Files?" ID="ID_1738536033" CREATED="1761075612986" MODIFIED="1790007553603" COLOR="#330033" BACKGROUND_COLOR="#ffccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_1076342504" CREATED="1761117777166" MODIFIED="1790006602970" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_1402190902" CREATED="1761117788142" MODIFIED="1790006602972" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Port?" ID="ID_1103852826" CREATED="1761075612986" MODIFIED="1790007481200" COLOR="#330033" BACKGROUND_COLOR="#ffccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_768645676" CREATED="1761117777166" MODIFIED="1790006602970" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+</node>
+<node TEXT="??-Server" ID="ID_53496914" CREATED="1761074181334" MODIFIED="1790007738491" COLOR="#330033" BACKGROUND_COLOR="#ff9999" STYLE="bubble">
+<node TEXT="start &amp;&#xa;stop" ID="ID_1971999911" CREATED="1761075612986" MODIFIED="1790007570791" COLOR="#330033" BACKGROUND_COLOR="#ffccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_1195729077" CREATED="1761117777166" MODIFIED="1790006602960" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_887852650" CREATED="1761117788142" MODIFIED="1790006602947" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Data&#xa;Files?" ID="ID_259722908" CREATED="1761075612986" MODIFIED="1790007553593" COLOR="#330033" BACKGROUND_COLOR="#ffccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_1313762520" CREATED="1761117777166" MODIFIED="1790006602965" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_384393720" CREATED="1761117788142" MODIFIED="1790006602966" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Config&#xa;Files?" ID="ID_222350661" CREATED="1761075612986" MODIFIED="1790007553603" COLOR="#330033" BACKGROUND_COLOR="#ffccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_245550173" CREATED="1761117777166" MODIFIED="1790006602970" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_789192962" CREATED="1761117788142" MODIFIED="1790006602972" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Port?" ID="ID_673334072" CREATED="1761075612986" MODIFIED="1790007481200" COLOR="#330033" BACKGROUND_COLOR="#ffccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_1821241411" CREATED="1761117777166" MODIFIED="1790006602970" COLOR="#330033" BACKGROUND_COLOR="#ffffff">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Backup?" POSITION="bottom_or_right" ID="ID_534788410" CREATED="1758697482369" MODIFIED="1790006846581" BACKGROUND_COLOR="#ffcc99" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<edge COLOR="#0000ff"/>
+<node TEXT="!" ID="ID_1304952412" CREATED="1761117777166" MODIFIED="1790006522140" COLOR="#333300">
+<font BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="!" ID="ID_1906488889" CREATED="1761117777166" MODIFIED="1790006472960" COLOR="#333300">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+</node>
+</map>
