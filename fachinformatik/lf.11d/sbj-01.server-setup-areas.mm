@@ -3,7 +3,7 @@
 <bookmarks>
     <bookmark nodeId="ID_696401721" name="Root" opensAsRoot="true"/>
 </bookmarks>
-<node TEXT="Server&#xa;Setup" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1790004998146" STYLE="oval">
+<node TEXT="Server&#xa;Setup" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1790156842786" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1758275720000" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
@@ -81,29 +81,33 @@
 <font NAME="DejaVu Sans Mono" BOLD="true"/>
 <edge COLOR="#00ffff"/>
 </node>
-<node TEXT="Which Hard Disk&#xa;Partitioning?" POSITION="bottom_or_right" ID="ID_1267397963" CREATED="1758697482369" MODIFIED="1790008392824" BACKGROUND_COLOR="#ccffcc" STYLE="oval" TEXT_ALIGN="CENTER">
+<node TEXT="Which Hard Disk&#xa;Partitioning?" POSITION="bottom_or_right" ID="ID_1267397963" CREATED="1758697482369" MODIFIED="1790156997066" BACKGROUND_COLOR="#ccffcc" STYLE="oval" TEXT_ALIGN="CENTER">
 <font NAME="DejaVu Sans Mono" BOLD="true"/>
-<edge COLOR="#0000ff"/>
+<edge STYLE="bezier" COLOR="#009900"/>
 </node>
-<node TEXT="Which File&#xa;Access Rules?" POSITION="bottom_or_right" ID="ID_138897689" CREATED="1758697482369" MODIFIED="1790008439566" BACKGROUND_COLOR="#99ccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<node TEXT="Which File&#xa;Access Rules?" POSITION="bottom_or_right" ID="ID_138897689" CREATED="1758697482369" MODIFIED="1790157017841" BACKGROUND_COLOR="#99ccff" STYLE="oval" TEXT_ALIGN="CENTER">
 <font NAME="DejaVu Sans Mono" BOLD="true"/>
-<edge COLOR="#0000ff"/>
+<edge COLOR="#0099cc"/>
 </node>
-<node TEXT="Which&#xa;Installation&#xa;Method?" POSITION="bottom_or_right" ID="ID_1026137742" CREATED="1758697482369" MODIFIED="1790008408309" BACKGROUND_COLOR="#9999ff" STYLE="oval" TEXT_ALIGN="CENTER">
+<node TEXT="Which&#xa;Installation&#xa;Method?" POSITION="bottom_or_right" ID="ID_1026137742" CREATED="1758697482369" MODIFIED="1790157029810" BACKGROUND_COLOR="#9999ff" STYLE="oval" TEXT_ALIGN="CENTER">
 <font NAME="DejaVu Sans Mono" BOLD="true"/>
-<edge COLOR="#0000ff"/>
+<edge COLOR="#9900ff"/>
 </node>
-<node TEXT="Which System&#xa;Features?" POSITION="bottom_or_right" ID="ID_1758796302" CREATED="1758697482369" MODIFIED="1790008354577" BACKGROUND_COLOR="#cc99ff" STYLE="oval" TEXT_ALIGN="CENTER">
+<node TEXT="Which System&#xa;Features?" POSITION="bottom_or_right" ID="ID_1758796302" CREATED="1758697482369" MODIFIED="1790157045754" BACKGROUND_COLOR="#cc99ff" STYLE="oval" TEXT_ALIGN="CENTER">
 <font NAME="DejaVu Sans Mono" BOLD="true"/>
-<edge COLOR="#0000ff"/>
+<edge COLOR="#cc00cc"/>
 </node>
 <node TEXT="Which&#xa;Services?" POSITION="bottom_or_right" ID="ID_797326145" CREATED="1761075612986" MODIFIED="1790008344938" COLOR="#330033" BACKGROUND_COLOR="#ff9999" STYLE="oval" TEXT_ALIGN="CENTER">
 <font NAME="DejaVu Sans Mono" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
 </node>
-<node TEXT="Which Backup&#xa;Strategy?" POSITION="bottom_or_right" ID="ID_534788410" CREATED="1758697482369" MODIFIED="1790008459126" BACKGROUND_COLOR="#ffcc99" STYLE="oval" TEXT_ALIGN="CENTER">
+<node TEXT="Which Backup&#xa;Strategy?" POSITION="bottom_or_right" ID="ID_534788410" CREATED="1758697482369" MODIFIED="1790157070931" BACKGROUND_COLOR="#ffcc99" STYLE="oval" TEXT_ALIGN="CENTER">
 <font NAME="DejaVu Sans Mono" BOLD="true"/>
-<edge COLOR="#0000ff"/>
+<edge COLOR="#cc6600"/>
+</node>
+<node TEXT="Which Network&#xa;Access?" POSITION="bottom_or_right" ID="ID_1390438785" CREATED="1758697482369" MODIFIED="1790157081283" BACKGROUND_COLOR="#ffccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<edge COLOR="#cc00cc"/>
 </node>
 </node>
 </map>

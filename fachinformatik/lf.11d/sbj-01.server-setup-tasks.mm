@@ -6,7 +6,7 @@
 <node TEXT="Server&#xa;Setup" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1790004998146" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" auto_compact_layout="true" fit_to_viewport="false" show_icons="BESIDE_NODES" associatedTemplateLocation="template:/standard-1.6.mm" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1758275720000" show_icon_for_attributes="true" showTagCategories="false" show_tags="UNDER_NODES" show_note_icons="true"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1758275720000" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -115,7 +115,7 @@
 <node TEXT="Distribution?" ID="ID_359399015" CREATED="1761075612986" MODIFIED="1790007688956" COLOR="#006666" BACKGROUND_COLOR="#dcffff" STYLE="oval" TEXT_ALIGN="CENTER">
 <font NAME="DejaVu Sans Mono" BOLD="true"/>
 <node TEXT="!" ID="ID_1028719076" CREATED="1761074181334" MODIFIED="1790007688958" BACKGROUND_COLOR="#dcffff" STYLE="bubble">
-<node TEXT="ISO&#xa;File?" ID="ID_1903061819" CREATED="1761075612986" MODIFIED="1790007688959" COLOR="#006666" BACKGROUND_COLOR="#dcffff" STYLE="oval" TEXT_ALIGN="CENTER">
+<node TEXT="ISO&#xa;File?" FOLDED="true" ID="ID_1903061819" CREATED="1761075612986" MODIFIED="1790007688959" COLOR="#006666" BACKGROUND_COLOR="#dcffff" STYLE="oval" TEXT_ALIGN="CENTER">
 <font NAME="DejaVu Sans Mono" BOLD="true"/>
 <node TEXT="!" ID="ID_3939799" CREATED="1761117777166" MODIFIED="1790004781910" COLOR="#009999">
 <font BOLD="true" ITALIC="true"/>
@@ -146,9 +146,9 @@
 </node>
 </node>
 </node>
-<node TEXT="Partitions" POSITION="bottom_or_right" ID="ID_1267397963" CREATED="1758697482369" MODIFIED="1790006984041" BACKGROUND_COLOR="#ccffcc" STYLE="oval" TEXT_ALIGN="CENTER">
+<node TEXT="Partitions" POSITION="bottom_or_right" ID="ID_1267397963" CREATED="1758697482369" MODIFIED="1790158071025" BACKGROUND_COLOR="#ccffcc" STYLE="oval" TEXT_ALIGN="CENTER">
 <font NAME="DejaVu Sans Mono" BOLD="true"/>
-<edge COLOR="#0000ff"/>
+<edge COLOR="#336600"/>
 <node TEXT="!" ID="ID_1492379750" CREATED="1761074181334" MODIFIED="1790007250532" COLOR="#330033" BACKGROUND_COLOR="#ccffcc" STYLE="bubble">
 <node TEXT="File&#xa;System" ID="ID_255050726" CREATED="1761075612986" MODIFIED="1790007688941" COLOR="#330033" BACKGROUND_COLOR="#dcffff" STYLE="oval" TEXT_ALIGN="CENTER">
 <font NAME="DejaVu Sans Mono" BOLD="true"/>
@@ -170,9 +170,9 @@
 </node>
 </node>
 </node>
-<node TEXT="Installation&#xa;Media?" POSITION="bottom_or_right" ID="ID_1026137742" CREATED="1758697482369" MODIFIED="1790006704574" BACKGROUND_COLOR="#9999ff" STYLE="oval" TEXT_ALIGN="CENTER">
+<node TEXT="Installation&#xa;Media?" POSITION="bottom_or_right" ID="ID_1026137742" CREATED="1758697482369" MODIFIED="1790158054488" BACKGROUND_COLOR="#9999ff" STYLE="oval" TEXT_ALIGN="CENTER">
 <font NAME="DejaVu Sans Mono" BOLD="true"/>
-<edge COLOR="#0000ff"/>
+<edge COLOR="#0066cc"/>
 <node TEXT="!" ID="ID_621496802" CREATED="1761117777166" MODIFIED="1790005657063" COLOR="#3333ff">
 <font BOLD="true" ITALIC="true"/>
 </node>
@@ -180,9 +180,9 @@
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="File&#xa;Access&#xa;System" POSITION="bottom_or_right" ID="ID_138897689" CREATED="1758697482369" MODIFIED="1790007177503" BACKGROUND_COLOR="#99ccff" STYLE="oval" TEXT_ALIGN="CENTER">
+<node TEXT="File&#xa;Access&#xa;System" POSITION="bottom_or_right" ID="ID_138897689" CREATED="1758697482369" MODIFIED="1790158035255" BACKGROUND_COLOR="#99ccff" STYLE="oval" TEXT_ALIGN="CENTER">
 <font NAME="DejaVu Sans Mono" BOLD="true"/>
-<edge COLOR="#0000ff"/>
+<edge COLOR="#0066ff"/>
 <node TEXT="!" ID="ID_355956492" CREATED="1761117777166" MODIFIED="1790005623613" COLOR="#00cccc">
 <font BOLD="true" ITALIC="true"/>
 </node>
@@ -369,14 +369,32 @@
 </node>
 </node>
 </node>
-<node TEXT="Backup?" POSITION="bottom_or_right" ID="ID_534788410" CREATED="1758697482369" MODIFIED="1790006846581" BACKGROUND_COLOR="#ffcc99" STYLE="oval" TEXT_ALIGN="CENTER">
+<node TEXT="Backup?" POSITION="bottom_or_right" ID="ID_534788410" CREATED="1758697482369" MODIFIED="1790158024679" BACKGROUND_COLOR="#ffcc99" STYLE="oval" TEXT_ALIGN="CENTER">
 <font NAME="DejaVu Sans Mono" BOLD="true"/>
-<edge COLOR="#0000ff"/>
+<edge COLOR="#ff9900"/>
 <node TEXT="!" ID="ID_1304952412" CREATED="1761117777166" MODIFIED="1790006522140" COLOR="#333300">
 <font BOLD="true" ITALIC="true"/>
 </node>
 <node TEXT="!" ID="ID_1906488889" CREATED="1761117777166" MODIFIED="1790006472960" COLOR="#333300">
 <font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Network?" POSITION="bottom_or_right" ID="ID_1751742374" CREATED="1758697482369" MODIFIED="1790158003558" COLOR="#660066" BACKGROUND_COLOR="#ff99ff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<edge COLOR="#cc00cc"/>
+<node TEXT="!" ID="ID_433162719" CREATED="1761074181334" MODIFIED="1790157975494" COLOR="#660066" BACKGROUND_COLOR="#ff99ff" STYLE="bubble">
+<node TEXT="user?" ID="ID_1819546057" CREATED="1761075612986" MODIFIED="1790157923038" COLOR="#000000" BACKGROUND_COLOR="#ff99ff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_1307327655" CREATED="1761117777166" MODIFIED="1790157969102" COLOR="#660066">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="passwd?" ID="ID_1202181596" CREATED="1761075612986" MODIFIED="1790157930917" COLOR="#000000" BACKGROUND_COLOR="#ff99ff" STYLE="oval" TEXT_ALIGN="CENTER">
+<font NAME="DejaVu Sans Mono" BOLD="true"/>
+<node TEXT="!" ID="ID_782848075" CREATED="1761117777166" MODIFIED="1790157962917" COLOR="#660066">
+<font BOLD="true" ITALIC="true"/>
+</node>
+</node>
 </node>
 </node>
 </node>
