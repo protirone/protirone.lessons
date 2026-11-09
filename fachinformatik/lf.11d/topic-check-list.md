@@ -69,7 +69,7 @@ _LF 11d/12d Fachrichtung 'Digitale Vernetzung':_
     * [ ] Penetrationtest
     * [ ] Multi-Faktor-Authentifizierung (Vorteil)
   * __Betrieb u. Erweiterung vernetzter Systeme__
-    * [ ] Berechnung Speicherkonzept (Aufwand Resourcen)
+    * [ ] Berechnung Speicherkonzept (Aufwand Ressourcen)
     * [ ] NAS versus DAS
     * [ ] SAN-System
     * [ ] MQTT-Topic
